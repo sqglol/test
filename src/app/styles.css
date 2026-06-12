@@ -1,0 +1,30 @@
+
+body {
+  background-image: url("/background.png");
+  background-size: cover;
+  width: auto;
+}
+
+.title {
+    font-family: 'Staatliches';
+    font-weight: 400;
+    letter-spacing: 5; 
+    color: white;
+    justify-self: center;
+    text-shadow: 4px 4px 6px rgba(0,0,0,0.6);
+}
+
+.caption {    
+    padding: 0.5% 3% 0.5% 3%;
+    width: fit-content;
+    border-radius: 10px;
+    line-height: 0.9;
+}
+
+.shadow {
+    box-shadow: 5px 8px 10px rgba(0,0,0,0.6);
+}
+
+.button-shadow {
+    box-shadow: 3px 3px 2px rgb(0, 0, 0);
+}
