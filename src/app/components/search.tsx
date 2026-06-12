@@ -86,8 +86,8 @@ export default function TextareaDisabled() {
 export function NavbarHome() {
   return (
     // 1. Turned the wrapper into a semantic HTML5 <nav> tag
-    <nav className="mx-10 flex h-15 items-center justify-start px-6 border-t-2 border-border-nav">
-      <div className="my-3 mx-8 flex items-center whitespace-nowrap gap-10 font-medium opacity-80">
+    <nav className="mx-0 md:mx-10 flex min-h-15 items-center justify-start px-4 md:px-6 border-t-2 border-border-nav">
+      <div className="my-3 flex items-center gap-6 md:gap-10 font-medium opacity-80 overflow-x-auto whitespace-nowrap scrollbar-none w-full">
         <Link
           href="/"
           className="text-lg font-medium text-primary-background hover:underline"
