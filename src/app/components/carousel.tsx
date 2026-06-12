@@ -55,7 +55,7 @@ export default function CarouselHome() {
               <div className="relative w-full h-[400px] overflow-hidden">
                 <Image
                   src={slide.image}
-                  alt={`slide.title`}
+                  alt={slide.title}
                   fill
                   className="object-cover shadow"
                   priority={index === 0}
@@ -76,8 +76,8 @@ export default function CarouselHome() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="left-45"/>
-        <CarouselNext className="right-45"/>
+        <CarouselPrevious className="left-4 md:left-8 z-10" />
+        <CarouselNext className="right-4 md:right-8 z-10" />
       </Carousel>
     </div>
   );
